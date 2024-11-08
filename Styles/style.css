@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: "Open Sans", sans-serif;
 }
+
 /* Nav Bar related Styles */
-a{
+a {
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -38,11 +40,13 @@ nav>ul li {
     margin-left: 50px;
     list-style: none;
 }
-.right-header{
+
+.right-header {
     align-items: center;
     margin-right: 5%;
 }
-.primary-button{
+
+.primary-button {
     cursor: pointer;
     background: #FD6E0A;
     border: none;
@@ -50,20 +54,23 @@ nav>ul li {
     width: 150px;
     height: 60px;
     color: white;
-    font-weight:700;
+    font-weight: 700;
     font-size: 15px;
 }
+
 .right-header button {
     font-size: 20px;
 }
+
 /* Header Related Styles */
- .header{
+.header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
- }
- .banner{
+}
+
+.banner {
     display: flex;
     align-items: center;
     padding: 5% 5% 0% 5%;
@@ -73,30 +80,85 @@ nav>ul li {
     background-position: left;
     background-size: 60px;
     background-position-y: center;
- }
- .banner img{
+}
+
+.banner img {
     width: 500px;
- }
- .banner-content{
+}
+
+.banner-content {
     max-width: 500px;
- }
- .banner-greetings{
+}
+
+.banner-greetings {
     font-size: 45px;
     font-weight: 300;
-    margin-bottom: 20px;
- }
- .banner-name{
-    font-size: 85px;
+    margin-bottom: 10px;
+}
+
+.banner-name {
+    font-size: 60px;
     font-weight: 800;
     margin-bottom: 20px;
- }
- .banner-desc{
+}
+
+.title-description {
     font-size: 18px;
     color: #757575;
+}
+.banner-content .title-description{
     margin-bottom: 30px;
- }
- #contact-btn{
+}
+#contact-btn {
     background: white;
     border: 2px solid #FD6E0A;
     color: #FD6E0A;
- }
+}
+
+/* Main Section */
+main {
+    margin: 0 auto;
+    max-width: 1340px;
+}
+
+/* About Section */
+.about-me-section {
+    text-align: center;
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 20px;
+}
+.about-me{
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-me > .title-description{
+    margin-bottom: 40px;
+}
+.title-data {
+    font-weight: 400;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+main p {
+    text-align: center;
+    margin: 0px 40px 0px 40px;
+}
+.about-me-footer{
+    display: flex;
+    justify-content: space-between;
+}
